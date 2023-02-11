@@ -19,11 +19,11 @@
   "author": "@julian1f",
   "license": "MIT",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3001",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "serve": "npm run build && vite preview"
+    "serve": "vite --port 3001"
   },
   "devDependencies": {
     "sass": "^1.52.3",
