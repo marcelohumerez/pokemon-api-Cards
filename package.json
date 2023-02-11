@@ -23,7 +23,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "serve": "vite --port 3001"
+    "serve": "npm run build && vite preview"
   },
   "devDependencies": {
     "sass": "^1.52.3",
